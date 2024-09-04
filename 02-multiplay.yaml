@@ -8,8 +8,8 @@
 
 #PLAY-02
 - name: PLAY-02 
- hosts: web
- tasks:
+  hosts: web
+  tasks:
   - name: PLAY-02 TASK-01
     ansible.builtin.debug:
       msg: "this is from PLAY-02 and TASK-01"
