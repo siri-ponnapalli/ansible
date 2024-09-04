@@ -11,7 +11,7 @@
 
   - name:  print the information again
     vars: 
-    COURSE: Ansible
+     COURSE: Ansible
     ansible.builtin.debug:
       msg: "Hi,i'm learning devops {{COURSE}}, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
 
